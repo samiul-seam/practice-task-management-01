@@ -10,3 +10,8 @@ def show_task(resquest):
 
 def this(request):
     return render(request , "index.html")
+
+def show_specific_task(request, id):
+    print(id)
+    print('id type' , type(id))
+    return HttpResponse (f"this is specific task id : {id}")
