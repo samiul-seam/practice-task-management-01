@@ -55,3 +55,5 @@ def populate_db():
         )
     print("Populated TaskDetails for all tasks.")
     print("Database populated successfully!")
+
+    
